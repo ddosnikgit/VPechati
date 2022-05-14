@@ -37,9 +37,9 @@ public class VKLib {
         JSONObject chat = (JSONObject) conf.get("chat_settings");
         System.out.println("> Беседа "+chat.get("title")+", ID: "+peer.get("id"));
       }
-  }
-} catch (Exception e) {
+    }
+  } catch (Exception e) {
 			e.printStackTrace();
+    }
   }
-}
 }
